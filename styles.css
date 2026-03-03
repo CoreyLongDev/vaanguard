@@ -99,22 +99,33 @@ h1 {
     font-weight: 600;
 }
 
+h1::before{
+    content: "";
+    display: block;
+    left: 1rem;
+    width: 3.75rem;
+    height: 3.75rem;
+    background: url('images/vanguard-logo.svg') no-repeat center/contain;
+    position: absolute;
+}
+
 header nav ul {
     display: flex;
     gap: 1rem;
     padding: 0.5rem 1rem;
 }
 
+h2 {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+/* HERO SECTION  */
 #hero * {
     color: var(--white);
     text-align: center;
     margin: 0 auto;
     backdrop-filter: blur(10px);
-}
-
-h2 {
-    font-size: 2rem;
-    font-weight: 600;
 }
 
 #hero h2 {
@@ -144,16 +155,13 @@ h2 {
     overflow: hidden;
 }
 
-h1::before{
-    content: "";
-    display: block;
-    left: 1rem;
-    width: 3.75rem;
-    height: 3.75rem;
-    background: url('images/vanguard-logo.svg') no-repeat center/contain;
-    position: absolute;
-}
+/* ABOUT SECTION  */
 
+
+/* SERVICES SECTION  */
+
+
+/* RESULTS SECTION  */
 #bar-chart {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
