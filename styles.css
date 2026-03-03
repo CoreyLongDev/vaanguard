@@ -105,6 +105,33 @@ header nav ul {
     padding: 0.5rem 1rem;
 }
 
+#hero * {
+    color: var(--white);
+    text-align: center;
+    margin: 0 auto;
+    backdrop-filter: blur(10px);
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+#hero h2 {
+    margin: 1rem;
+}
+
+#hero a {
+    display: block;
+    font-size: 1.25rem;
+    padding: 1rem;
+    background: var(--blue);
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 500;
+    width: fit-content;
+    margin-top: 1rem;
+}
 
 #hero {
     /* (Photo by Kevin Matos on Unsplash) */
