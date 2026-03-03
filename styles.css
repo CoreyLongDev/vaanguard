@@ -97,7 +97,7 @@ table {
     background: url('images/vanguard-logo.svg') no-repeat center/contain;
 
 }
-/* THIS ONE IS DONE FOR YOU */
+
 #bar-chart {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -110,7 +110,7 @@ table {
     padding: 1rem;
     position: relative;
 }
-/* ADD ON TRANSITION ON HEIGHT */
+
 .bar {
     width: 50px;
     background: var(--charcoal);
@@ -119,7 +119,7 @@ table {
     transition: ;
     height: 0;
 }
-/* THIS ONE IS DONE FOR YOU */
+
 .bar::after {
     content: attr(data-year);
     position: absolute;
@@ -138,11 +138,10 @@ table {
         height: var(--height);
     }
 }
-/* ADD ANIMATION ON stepUp for 1s ease-in-out forwards */
+
 .bar {
     animation: stepUp 1s ease-in-out forwards;
 }
-
 
 /* MEDIA QUERIES (MEDIUM) */ 
 @media (min-width: 800px) {
