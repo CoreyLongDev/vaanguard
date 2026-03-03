@@ -54,12 +54,15 @@ table {
 
 /* ROOT VARIABLES */
 :root {
+    /* FONT */
+    --font: "Inter", sans-serif;
+
+    /* COLOR */
     --blue: #007BFF;
     --red: #FF4500;
     --white: #EAEAEA;
     --black: #000000;
     --charcoal: #333333;
-    --font: "Inter", sans-serif;
 }
 
 /* GLOBAL STYLES (MOBILE FIRST (SMALL) */
