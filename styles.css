@@ -170,7 +170,23 @@ h2 {
 }
 
 /* SERVICES SECTION  */
+#services h2 {
+    margin: 2rem 1rem;
+}
 
+#services h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin: 1rem;
+}
+
+#services section {
+    background: var(--blue);
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    color: var(--white);
+}
 
 /* RESULTS SECTION  */
 #bar-chart {
