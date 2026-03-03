@@ -66,16 +66,34 @@ table {
 }
 
 /* GLOBAL STYLES (MOBILE FIRST (SMALL) */
-
-
-/* MIN-WIDTH OF THE PAGE SHOULD NOT GO BELOW 400PX */
-
-/* ADD A DIV WITH THE CLASS OF CONTAINER TO EVERY CONTENT CONTAINER THIS IS ALLOW THE BASE ELEMENTS TO BE 100% WIDTH, BUT CONSTRAIN THE ACTUAL CONTENT TO 90% */
 .container {
     width: 90%;
     max-width: 1200px;
     margin: 0 auto;
 }
+
+body {
+    font-family: var(--font);
+    min-width: 400px;
+    line-height: 1.5;
+}
+
+header {
+    background-color: var(--black);
+}
+
+h1 {
+    color: var(--blue);
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+header nav ul {
+    display: flex;
+    gap: 1rem;
+    padding: 0.5rem 1rem;
+}
+
 
 #hero {
     /* (Photo by Kevin Matos on Unsplash) */
