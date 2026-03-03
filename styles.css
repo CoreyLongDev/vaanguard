@@ -170,6 +170,10 @@ h2 {
 }
 
 /* SERVICES SECTION  */
+#services {
+    margin-bottom: 4rem;
+}
+
 #services h2 {
     margin: 2rem 1rem;
 }
@@ -189,6 +193,21 @@ h2 {
 }
 
 /* RESULTS SECTION  */
+#results {
+    background-color: var(--blue);
+    color: var(--white);
+}
+
+#results h2 {
+    padding: 3rem 0 2rem 1rem;
+}
+
+#results h3 {
+    font-size: 1.75rem;
+    font-weight: 700;
+    margin: 1rem;
+}
+
 #bar-chart {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
