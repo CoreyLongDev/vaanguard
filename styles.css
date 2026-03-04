@@ -306,6 +306,34 @@ input:checked ~ label:not(.steps) span:after {
     margin: 1rem;
 }
 
+/* TABLE */
+#results table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0;
+    text-align: center;
+}
+
+#results th {
+    background: var(--black);
+    padding: 0.75rem;
+    font-weight: 500;
+    border: 3px solid var(--charcoal);
+}
+
+#results td {
+    padding: 1rem;
+    border: 3px solid var(--charcoal);
+}
+
+#results tbody tr {
+    background: var(--black);
+}
+
+#results tbody tr:nth-child(even) {
+    background: var(--charcoal);
+}
+
 #bar-chart {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
