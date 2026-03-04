@@ -382,7 +382,12 @@ footer {
     background: var(--black);
     color: var(--white);
     text-align: center;
-    padding: 1rem;
+    padding: 2rem;
+}
+
+footer a[href^="tel"] {
+    text-decoration: none;
+    color: var(--white);
 }
 
 /* MEDIA QUERIES (MEDIUM) */ 
