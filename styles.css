@@ -301,9 +301,9 @@ input:checked ~ label:not(.steps) span:after {
 }
 
 #results h3 {
-    font-size: 1.75rem;
+    font-size: 2rem;
     font-weight: 700;
-    margin: 1rem;
+    margin: 1.5rem;
 }
 
 /* TABLE */
@@ -312,6 +312,7 @@ input:checked ~ label:not(.steps) span:after {
     border-collapse: collapse;
     margin: 0;
     text-align: center;
+    margin-bottom: 2rem;
 }
 
 #results th {
