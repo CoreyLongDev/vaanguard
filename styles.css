@@ -120,6 +120,38 @@ h2 {
     font-weight: 600;
 }
 
+/* HAMBURGER MENU ATTEMPT  */
+label span {
+    background-color: white;
+    display: block;
+    height: .25rem;
+    position: relative;
+    transition: background-color .3s ease-out;
+    width: 2rem;
+}
+
+label span:before, label span:after {
+    background: white;
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    transition: all .2s ease-out;
+    width: 100%;
+}
+
+label span:before {
+    top: .75rem;
+}
+
+label span:after {
+    top: -.75rem;
+}
+
+input {
+  display:none;
+}
+
 /* HERO SECTION  */
 #hero * {
     color: var(--white);
