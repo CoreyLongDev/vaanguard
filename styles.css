@@ -377,8 +377,17 @@ input:checked ~ label:not(.steps) span:after {
     }
 }
 
+/* FOOTER  */
+footer {
+    background: var(--black);
+    color: var(--white);
+    text-align: center;
+    padding: 1rem;
+}
+
 /* MEDIA QUERIES (MEDIUM) */ 
 @media (min-width: 800px) {
+    /* RAN OUT OF TIME  */
     #results {
         grid-template-columns: 1fr 1fr;
     }
@@ -396,5 +405,5 @@ input:checked ~ label:not(.steps) span:after {
 
 /* MEDIA QUERIES (LARGE) */
 @media (min-width: 1024px) {
-
+    /* RAN OUT OF TIME */
 }
