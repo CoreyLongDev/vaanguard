@@ -294,6 +294,7 @@ input:checked ~ label:not(.steps) span:after {
 #results {
     background-color: var(--blue);
     color: var(--white);
+    padding-bottom: 1rem;
 }
 
 #results h2 {
@@ -375,6 +376,16 @@ input:checked ~ label:not(.steps) span:after {
     100% {
         height: var(--height);
     }
+}
+
+/* FORM */
+#contact {
+    background: var(--black);
+    color: var(--white);
+}
+
+#contact h2 {
+    padding: 2rem;
 }
 
 /* FOOTER  */
