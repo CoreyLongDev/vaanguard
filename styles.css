@@ -121,6 +121,10 @@ h2 {
 }
 
 /* HAMBURGER MENU ATTEMPT  */
+nav {
+    position: relative;
+}
+
 nav ul {
   width: 100%;
   margin:0;
@@ -129,6 +133,7 @@ nav ul {
   overflow:hidden;
   text-align:right;
   max-height: 0;
+  position: absolute;
 }
 
 nav h2 {
@@ -149,7 +154,7 @@ nav li a {
 }
 
 nav a:hover, nav input:hover {
-    background-color: black;
+    background-color: var(--blue);
 }
 
 nav label {
@@ -162,16 +167,16 @@ nav label {
 }
 
 label span {
-    background-color: white;
+    background-color: var(--white);
     display: block;
-    height: .25rem;
+    height: .20rem;
     position: relative;
     transition: background-color .3s ease-out;
     width: 2rem;
 }
 
 label span:before, label span:after {
-    background: white;
+    background: var(--white);
     content: '';
     display: block;
     height: 100%;
